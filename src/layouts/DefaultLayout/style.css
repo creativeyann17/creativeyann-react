@@ -4,3 +4,8 @@
     width: 100%;
     flex-direction: column;
 }
+
+.container {
+    width: 1140px;
+    margin: 5em auto;
+}

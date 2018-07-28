@@ -11,9 +11,11 @@ class App extends Component {
     return (
       <div className="default-layout">
         <Header />
-        <Switch>
-            <Route exact path={ROUTES.INDEX} component={Index}/>
-        </Switch>
+        <div className="container">
+          <Switch>
+              <Route exact path={ROUTES.INDEX} component={Index}/>
+          </Switch>
+        </div>
         <Footer />
       </div>
     );
