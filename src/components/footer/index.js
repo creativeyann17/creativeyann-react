@@ -3,9 +3,9 @@ import './style.css';
 
 const Footer = () => {
     return (
-        <div id="footer">
-        footer
-        </div>
+        <footer>
+        <p>© 2018 Yann MARCOU</p>
+        </footer>
     );
 };
 

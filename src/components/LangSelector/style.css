@@ -1,0 +1,25 @@
+.lang-selector {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1em 0;
+}
+
+.lang-selector ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.lang-selector li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0 0.7em;
+}
+
+.lang-selector li.active{
+    border-bottom: 0.3em solid;
+    border-bottom-color: var(--main-active-color);
+}

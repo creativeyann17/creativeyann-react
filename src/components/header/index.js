@@ -1,11 +1,14 @@
 import React from 'react';
 import './style.css';
+import logo from './logo.png';
+import LangSelector from '../LangSelector';
 
 const Header = () => {
     return (
-        <div id="header">
-        header
-        </div>
+        <header>
+            <img className="header-logo" src={logo} alt='creative-yann-logo'/>
+            <LangSelector />
+        </header>
     );
 };
 

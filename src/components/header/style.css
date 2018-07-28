@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+}
+
+.header-logo {
+    margin: 1em 2em;
+}

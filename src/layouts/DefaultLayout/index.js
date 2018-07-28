@@ -8,7 +8,7 @@ import './style.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="default-layout">
         <Header />
         <Switch>
             <Route exact path='/' component={Index}/>

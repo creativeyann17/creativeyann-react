@@ -1,5 +1,10 @@
+:root {
+  --main-bg-color: #19375a;
+  --main-active-color: steelblue;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
