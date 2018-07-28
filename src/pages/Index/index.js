@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux'
 import {ArticlesShape} from '../../shapes/ArticlesShapes';
+import {FormattedMessage} from 'react-intl';
 // import Article from '../../components/Article';
 // import About from '../../components/About';
 import './style.css';
@@ -10,7 +11,7 @@ const Index = (props) => {
         <div className="page-index">
             <div className="page-index-left">
                 {/*<Article source={props.articles[0]} />*/}
-                <p>Work in progress ...</p>
+                <p><FormattedMessage id="page.index.welcome" /></p>
             </div>
             <div className="page-index-right">
                 {/*<About/>*/}

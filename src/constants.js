@@ -3,7 +3,7 @@ export const LANG = {
     EN: 'en',
 };
 
-export const LANG_DEFAULT = LANG.FR;
+export const LANG_DEFAULT = navigator.language.split(/[-_]/)[0];
 
 export const ROUTES = {
     INDEX: '/',
