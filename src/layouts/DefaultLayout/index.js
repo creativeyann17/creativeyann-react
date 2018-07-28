@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Header from '../../components/header';
-import Footer from '../../components/footer';
-import Index from '../../pages/index';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Index from '../../pages/Index';
+import {ROUTES} from '../../constants'
 import './style.css';
 
 class App extends Component {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="default-layout">
         <Header />
         <Switch>
-            <Route exact path='/' component={Index}/>
+            <Route exact path={ROUTES.INDEX} component={Index}/>
         </Switch>
         <Footer />
       </div>

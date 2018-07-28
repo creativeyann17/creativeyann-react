@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #19375a;
+  --second-bg-color: #1c3e66;
   --main-active-color: steelblue;
   --second-active-color: #6bace2;
 }
@@ -7,5 +8,6 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

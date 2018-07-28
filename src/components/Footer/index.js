@@ -1,10 +1,12 @@
 import React from 'react';
+import ExternalLinks from '../ExternalLinks';
 import './style.css';
 
 const Footer = () => {
     return (
         <footer>
-        <p>© 2018 Yann MARCOU</p>
+            <span>© 2018 Yann MARCOU</span>
+            <ExternalLinks />
         </footer>
     );
 };

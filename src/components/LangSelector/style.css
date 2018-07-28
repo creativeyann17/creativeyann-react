@@ -1,5 +1,6 @@
 .lang-selector {
     display: flex;
+    align-items: stretch;
 }
 
 .lang-selector ul {
@@ -11,17 +12,24 @@
 }
 
 .lang-selector li{ 
+    color: #aaa;
     list-style: none;
     display: flex;
     align-items: stretch;
-    border-top: 1em solid;
-    border-top-color: transparent;
+    border-bottom: .5em solid;
+    border-bottom-color: transparent;
     text-transform: uppercase;
     cursor: pointer;
     padding: 1em 1em;
 }
 
+.lang-selector li:hover{
+    color: white;
+}
+
 .lang-selector li.active{
-    border-top-color: var(--main-active-color);
+    color: white;
+    border-bottom-color: var(--main-active-color);
     background-color: var(--second-active-color);
+    
 }
