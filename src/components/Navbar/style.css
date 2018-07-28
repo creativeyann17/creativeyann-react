@@ -1,9 +1,4 @@
-.lang-selector {
-    display: flex;
-    align-items: stretch;
-}
-
-.lang-selector ul {
+.navbar ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -11,8 +6,7 @@
     margin: 0;
 }
 
-.lang-selector li{ 
-    color: #ddd;
+.navbar li{ 
     list-style: none;
     display: flex;
     align-items: stretch;
@@ -23,13 +17,12 @@
     padding: 1em 1em;
 }
 
-.lang-selector li:hover{
-    color: white;
+.navbar li:hover{
+    color: black;
 }
 
-.lang-selector li.active{
-    color: white;
+.navbar li.active{
+    color: black;
     border-bottom-color: var(--main-active-color);
     background-color: var(--second-active-color);
-    
 }

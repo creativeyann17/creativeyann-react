@@ -1,15 +1,32 @@
 import React from 'react';
-import Markdown from '../../components/Markdown';
+import {connect} from 'react-redux'
+import {ArticlesShape} from '../../shapes/ArticlesShapes';
+// import Article from '../../components/Article';
+// import About from '../../components/About';
 import './style.css';
 
-import article1 from '../../Articles/article1.md';
-
-const Index = () => {
+const Index = (props) => {
     return (
-        <div id="page-index">
-           <Markdown source={article1}/>
+        <div className="page-index">
+            <div className="page-index-left">
+                {/*<Article source={props.articles[0]} />*/}
+                <p>Work in progress ...</p>
+            </div>
+            <div className="page-index-right">
+                {/*<About/>*/}
+            </div>
         </div>
     );
 };
 
-export default Index;
+Index.propTypes = {
+    articles: ArticlesShape.isRequired,
+};
+
+const mapStateToProps = (state) => {
+    return {
+        articles: state.ArticlesServiceReducer.articles
+    };
+}
+
+export default connect(mapStateToProps)(Index);

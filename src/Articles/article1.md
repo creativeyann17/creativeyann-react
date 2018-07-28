@@ -9,3 +9,5 @@ Such as the C version I was looking for way to manage concurrency in JAVA. The s
 
 ## Disruptor (High Performance Inter-Thread Messaging Library)
 This library was part of my results to find a concurrent mechanism in JAVA. The logic is different from ForkJoin, the Disruptor is like an infinite ring where one or several sources insert data (in live) and during the same time consumers pop out and perform a treatment. The logic of concurrency is done based of the number of consumer threads. This mechanism is interesting,for me, if you have a no blocking model to compute. You will find in download part the source code.
+
+[GitHub](https://github.com/creativeyann17/Prime_C_JAVA)

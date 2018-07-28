@@ -1,7 +1,17 @@
 header {
     display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
     justify-content: space-between;
     background-color: var(--main-bg-color);
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header-logo {

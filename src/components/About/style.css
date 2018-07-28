@@ -1,0 +1,12 @@
+.about {
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: .25rem;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.about img {
+    float: right;
+    margin: 0 1em;
+}

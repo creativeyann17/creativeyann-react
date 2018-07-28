@@ -1,3 +1,19 @@
-#page-index {
-    height: 500px;
+.page-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
+.page-index-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+}
+
+
+.page-index-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+

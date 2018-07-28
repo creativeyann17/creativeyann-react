@@ -12,3 +12,8 @@ export const ROUTES = {
         LINKEDIN: 'https://www.linkedin.com/in/yann-marcou-21280267/'
     }
 }
+
+export const CONTEXT = {
+    C: 'C',
+    JAVA : 'JAVA',
+}

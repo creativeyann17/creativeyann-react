@@ -6,7 +6,7 @@ import Index from '../../pages/Index';
 import {ROUTES} from '../../constants'
 import './style.css';
 
-class App extends Component {
+class DefaultLayout extends Component {
   render() {
     return (
       <div className="default-layout">
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default DefaultLayout;
