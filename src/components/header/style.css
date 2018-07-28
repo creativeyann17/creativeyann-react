@@ -2,6 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: var(--main-bg-color);
+    color: white;
 }
 
 .header-logo {

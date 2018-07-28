@@ -1,25 +1,27 @@
 .lang-selector {
-    color: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 1em 0;
 }
 
 .lang-selector ul {
-    padding-left: 0;
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
 }
 
-.lang-selector li{
+.lang-selector li{ 
     list-style: none;
-    display: inline-block;
+    display: flex;
+    align-items: stretch;
+    border-top: 1em solid;
+    border-top-color: transparent;
     text-transform: uppercase;
     cursor: pointer;
-    padding: 0 0.7em;
+    padding: 1em 1em;
 }
 
 .lang-selector li.active{
-    border-bottom: 0.3em solid;
-    border-bottom-color: var(--main-active-color);
+    border-top-color: var(--main-active-color);
+    background-color: var(--second-active-color);
 }

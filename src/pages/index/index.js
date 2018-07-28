@@ -3,8 +3,8 @@ import './style.css';
 
 const Index = () => {
     return (
-        <div id="index">
-        index
+        <div id="page-index">
+
         </div>
     );
 };
