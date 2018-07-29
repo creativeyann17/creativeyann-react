@@ -6,6 +6,14 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 5em auto;
+    margin-bottom: 1em;
+    padding: 0 1em;
+}
+
+@media (max-width: 1080px) {
+    .container {
+        margin: 5em 0;
+    }
 }

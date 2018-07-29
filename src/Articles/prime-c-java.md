@@ -1,4 +1,3 @@
-# OpenMP(C), ForkJoin(JAVA) and Disruptor(JAVA) prime number finders
 This is one of the most interesting concurrent pack of programs I have done. The goal remains the same: find prime numbers in an input array. The difference is the way it's done. This times no manual self-made concurrent process but real use of specialized libraries or framework in C and JAVA.
 
 ## OpenMP (Open Multi-Processing)
@@ -10,4 +9,3 @@ Such as the C version I was looking for way to manage concurrency in JAVA. The s
 ## Disruptor (High Performance Inter-Thread Messaging Library)
 This library was part of my results to find a concurrent mechanism in JAVA. The logic is different from ForkJoin, the Disruptor is like an infinite ring where one or several sources insert data (in live) and during the same time consumers pop out and perform a treatment. The logic of concurrency is done based of the number of consumer threads. This mechanism is interesting,for me, if you have a no blocking model to compute. You will find in download part the source code.
 
-[GitHub](https://github.com/creativeyann17/Prime_C_JAVA)

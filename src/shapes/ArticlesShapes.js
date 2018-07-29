@@ -4,6 +4,8 @@ export const ArticleProps = PropTypes.shape({
     lang: PropTypes.string.isRequired,
     context: PropTypes.arrayOf(PropTypes.string).isRequired,
     date: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    repository: PropTypes.string.isRequired,
 });
 
 export const ArticleShape = PropTypes.shape({

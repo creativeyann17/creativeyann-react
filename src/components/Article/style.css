@@ -1,0 +1,40 @@
+.article {
+    margin-bottom: 5em;
+}
+
+.article .markdown {
+    text-align: justify;
+}
+
+.article-header {
+    display: flex;
+    align-items: center;
+}
+
+.article-header-context {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: var(--main-active-color);
+    border-radius: 10px;
+    margin-left: 0.5em;
+}
+
+.article-header-date {
+    color: #999;
+}
+
+.article-header-repository {
+    margin-left: .5em;
+}
+
+.article-backtotop {
+    font-size: smaller;
+}

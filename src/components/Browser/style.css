@@ -1,0 +1,12 @@
+.browser {
+    padding: 1rem;
+    margin-bottom: 1em;
+}
+
+.browser ol {
+    padding-left: 1em;
+}
+
+.browser li{
+    font-size: smaller;
+}

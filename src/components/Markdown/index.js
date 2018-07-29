@@ -18,7 +18,7 @@ class Markdown extends Component {
     render(){
         const {text} = this.state;
         return (
-            <div id="page-index">
+            <div className="markdown">
                 {text ? <ReactMarkdown source={text}/> : 'Loading ...'}
             </div>
         );

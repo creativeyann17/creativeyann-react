@@ -1,19 +1,25 @@
 .page-index {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
 .page-index-left {
     display: flex;
     flex-direction: column;
     margin-right: 2em;
+    flex: 1 1 auto;
 }
 
 
 .page-index-right {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     max-width: 30%;
+}
+
+@media (max-width: 1080px) {
+    .page-index-right {
+        display: none;
+    }
 }
 

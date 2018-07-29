@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import './style.css';
 import logo from './logo.png';
 import LangSelector from '../LangSelector';
-// import Navbar from '../Navbar';
 
 import {ROUTES} from '../../constants';
 
@@ -21,7 +20,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-bottom">
-                {/*<Navbar />*/}
+
             </div>
         </header>
     );

@@ -1,3 +1,9 @@
 {
-    "page.index.welcome": "En construction ..."
+    "article.lang.en": "En anglais le",
+    "article.lang.fr": "En français le",
+    "article.repository": "Lien vers GitHub",
+    "article.backtotop": "[Retour en haut]",
+    "browser.title": "Liens rapides",
+    "about.title": "A propos",
+    "about.message": "Bonjour, moi s'est Yann, développeur français. Jusqu'à présent j'ai travaillé sur différents projets professionnel utilisant différents type d'application : fenêtrées, embarquées et web. Les technologies utilisées comme JAVA, C#, C/C++ et JavaScript/HTML/CSS. Je suis actuellement à Montréal."
 }

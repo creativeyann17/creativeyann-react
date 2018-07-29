@@ -15,5 +15,11 @@ export const ROUTES = {
 
 export const CONTEXT = {
     C: 'C',
-    JAVA : 'JAVA',
+    POSIX: 'POSIX',
+    ANDROID: 'Android',
+    QT: 'Qt',
+    CPP: 'C++',
+    JAVA : 'Java',
 }
+
+export const ARTICLE_ANCHOR = "article_";

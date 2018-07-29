@@ -1,20 +1,24 @@
 import React from 'react';
 import {connect} from 'react-redux'
 import {ArticlesShape} from '../../shapes/ArticlesShapes';
-import {FormattedMessage} from 'react-intl';
-// import Article from '../../components/Article';
-// import About from '../../components/About';
+import {ARTICLE_ANCHOR} from '../../constants';
+import Article from '../../components/Article';
+import About from '../../components/About';
+import Browser from '../../components/Browser';
 import './style.css';
 
 const Index = (props) => {
     return (
         <div className="page-index">
             <div className="page-index-left">
-                {/*<Article source={props.articles[0]} />*/}
-                <p><FormattedMessage id="page.index.welcome" /></p>
+                {props.articles.map((article,i) => {
+                    const articleId = ARTICLE_ANCHOR+i;
+                    return <Article articleId={articleId} key={articleId} source={article} />
+                })}
             </div>
             <div className="page-index-right">
-                {/*<About/>*/}
+                <About/>
+                <Browser articles={props.articles}/>
             </div>
         </div>
     );

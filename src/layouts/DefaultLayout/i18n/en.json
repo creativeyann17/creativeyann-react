@@ -1,3 +1,9 @@
 {
-    "page.index.welcome": "Work in progress ..."
+    "article.lang.en": "In english the",
+    "article.lang.fr": "In french the",
+    "article.repository": "Link to GitHub",
+    "article.backtotop": "[Back to top]",
+    "browser.title": "Quick links",
+    "about.title": "About",
+    "about.message": "Hello I'm Yann, French Software developer. Until today I have worked on severals professionnal projects using various kind of applications: desktop, embedded and web. Differents technolgies were used like JAVA, C#, C/C++ and JavaScript/HTML/CSS. I'm currently working abroad at Montreal."
 }
