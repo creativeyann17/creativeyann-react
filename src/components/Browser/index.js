@@ -10,7 +10,7 @@ const Browser = (props) => {
             <h4><FormattedMessage id="browser.title"/></h4>
             <ol>
             {props.articles.map((article,i) => {
-                return <li key={i}><a href={"#"+ARTICLE_ANCHOR+i}>{article.props.title}</a></li>
+                return <li key={i}><a href={"#"+ARTICLE_ANCHOR+i}>{article.title}</a></li>
             })}
             </ol>
         </div>

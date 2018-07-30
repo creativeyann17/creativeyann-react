@@ -13,13 +13,14 @@ export const ROUTES = {
     }
 }
 
-export const CONTEXT = {
+/* export const CONTEXT = {
     C: 'C',
     POSIX: 'POSIX',
     ANDROID: 'Android',
     QT: 'Qt',
     CPP: 'C++',
     JAVA : 'Java',
-}
+} */
 
 export const ARTICLE_ANCHOR = "article_";
+export const ARTICLES = "articles.json";

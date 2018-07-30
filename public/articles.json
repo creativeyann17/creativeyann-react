@@ -1,0 +1,30 @@
+[
+    {
+        "lang": "en",
+        "context": ["CPP","ANDROID"],
+        "date": "2015-10-25",
+        "title": "Qt Desktop + Android chronometer application",
+        "repository": "android-qt-chrono"
+    },
+    {
+        "lang": "en",
+        "context": ["C"],
+        "date": "2015-05-15",
+        "title": "JAVA Launcher",
+        "repository": "JAVALauncher"
+    },
+    {
+        "lang": "en",
+        "context": ["C","POSIX"],
+        "date": "2015-05-15",
+        "title": "POSIX Concurrent library (self-made)",
+        "repository": "libconcurrent"
+    },
+    {
+        "lang": "en",
+        "context": ["C","JAVA"],
+        "date": "2015-05-15",
+        "title": "OpenMP(C), ForkJoin(JAVA) and Disruptor(JAVA) prime number finders",
+        "repository": "Prime_C_JAVA"
+    }
+]
